@@ -1,5 +1,5 @@
 {
-    "editor.quickSuggestions": false,
-    "editor.suggestOnTriggerCharacters": false,
+    "editor.quickSuggestions": true,
+    "editor.suggestOnTriggerCharacters": true,
     "editor.inlineSuggest.enabled": false
 }
