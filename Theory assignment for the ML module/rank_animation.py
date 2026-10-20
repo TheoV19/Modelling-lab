@@ -1,9 +1,18 @@
+"""Run: python -m manim -pql rank_animation.py Rank2D
+
+The final video is saved beside this script.
+"""
+from pathlib import Path
+
 import numpy as np
 from manim import (
     BLUE, DOWN, GREEN, ORANGE, ORIGIN, RED, RIGHT, UP, WHITE, YELLOW,
     ApplyMatrix, Create, Dot, FadeIn, FadeOut, NumberPlane, Polygon,
-    Scene, Text, VGroup, Vector,
+    Scene, Text, VGroup, Vector, config,
 )
+
+
+config.video_dir = str(Path(__file__).resolve().parent)
 
 
 class Rank2D(Scene):
