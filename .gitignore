@@ -1,0 +1,9 @@
+# macOS metadata and Python caches
+.DS_Store
+.vscode/settings.json
+__pycache__/
+*.pyc
+
+# Manim intermediate files (keep final videos)
+Theory assignment for the ML module/media/texts/
+Theory assignment for the ML module/media/videos/**/partial_movie_files/
