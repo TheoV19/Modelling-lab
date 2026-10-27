@@ -1,0 +1,22 @@
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - ipywidgets
+  - hyperopt
+  - kaggle
+  - plotly
+  - scikit-learn
+  - scipy
+  - numpy
+  - python
+  - py-xgboost
+  - jupyterlab
+  - nb_conda
+  - bokeh
+  - pandas
+  - holoviews
+  - seaborn
+  - notebook<7.0.0
+  - pymatviz
